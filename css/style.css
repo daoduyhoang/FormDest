@@ -72,6 +72,9 @@ textarea{
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+.content-form{
+    padding-bottom: 2rem;
+}
 @media(max-width: 992px){
     body{
         overflow:none;
