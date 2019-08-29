@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-table{
-    display: table;
-}
 body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -13,7 +10,7 @@ body{
 table, th, td {
     border: 1px solid #dee2e6;
     border-collapse: collapse;
-  }
+}
 tr{
     height: 100px;
 }
@@ -31,7 +28,6 @@ ul{
 }
 .exam{
     padding: 0 3rem;
-    margin-left: 1rem;
 }
 .w-10{
     width: 10%;
@@ -76,7 +72,10 @@ textarea{
     padding-bottom: 2rem;
 }
 @media(max-width: 992px){
-    body{
-        overflow:none;
+    .exam{
+        padding-right: 0;
+    }
+    table{
+    width: 1200px;
     }
 }
